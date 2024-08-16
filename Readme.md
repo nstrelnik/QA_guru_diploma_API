@@ -2,7 +2,7 @@
 
 ###  Используемые технологии
 <p align="center">
-  <code><img src="images/logo/python.svg" width="40" height="40"  alt="A-d-am" title="Python"></code>
+  <code><img src="tests/images/logo/python.svg" width="40" height="40"  alt="A-d-am" title="Python"></code>
   <code><img src="images/logo/pytest.png" width="40" height="40"  alt="A-d-am" title="PyTest"></code>
   <code><img src="images/logo/requests.png" width="40" height="40"  alt="A-d-am" title="Requests"></code>
   <code><img src="images/logo/selene.png" width="40" height="40"  alt="A-d-am" title="Selene"></code>
