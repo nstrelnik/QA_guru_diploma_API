@@ -2,13 +2,13 @@
 
 ###  Используемые технологии
 <p align="center">
-  <code><img src="images/logo/python.svg" width="40" height="40"  alt="A-d-am" title="Python"></code>
-  <code><img src="images/logo/pytest.png" width="40" height="40"  alt="A-d-am" title="PyTest"></code>
-  <code><img src="images/logo/requests.png" width="40" height="40"  alt="A-d-am" title="Requests"></code>
-  <code><img src="images/logo/selene.png" width="40" height="40"  alt="A-d-am" title="Selene"></code>
-  <code><img src="images/logo/pycharm.png" width="40" height="40"  alt="A-d-am" title="PyCharm"></code>
-  <code><img src="images/logo/Jenkins.svg" width="40" height="40"  alt="A-d-am" title="Jenkins"></code>
-  <code><img src="images/logo/Allure_new.png" width="40" height="40"  alt="A-d-am" title="Allure Report"></code>
+  <code><img src="tests/images/logo/python.svg" width="40" height="40"  alt="A-d-am" title="Python"></code>
+  <code><img src="tests/images/logo/pytest.png" width="40" height="40"  alt="A-d-am" title="PyTest"></code>
+  <code><img src="tests/images/logo/requests.png" width="40" height="40"  alt="A-d-am" title="Requests"></code>
+  <code><img src="tests/images/logo/selene.png" width="40" height="40"  alt="A-d-am" title="Selene"></code>
+  <code><img src="tests/images/logo/pycharm.png" width="40" height="40"  alt="A-d-am" title="PyCharm"></code>
+  <code><img src="tests/images/logo/Jenkins.svg" width="40" height="40"  alt="A-d-am" title="Jenkins"></code>
+  <code><img src="tests/images/logo/Allure_new.png" width="40" height="40"  alt="A-d-am" title="Allure Report"></code>
 </p>
 
 ## Покрываемый функционал
@@ -36,7 +36,7 @@ context=api pytest -m api
 #### Для запуска автотестов необходимо:
  - Открыть [джобу](https://jenkins.autotests.cloud/job/QA_guru_diploma_API/) в jenkins
  - Нажать на Build
-<img src="images/screenshots/Jenkins_build.png">
+<img src="tests/images/screenshots/Jenkins_build.png">
 
 ## Отчет о прохождении тестов (Allure)
 
@@ -48,11 +48,11 @@ context=api pytest -m api
 allure serve allure-results
 ```
 Ниже представлен пример allure отчета 
-<img src="images/screenshots/allure_report_example_api.png">
+<img src="tests/images/screenshots/allure_report_example_api.png">
 
 ### Если тесты запускались в Jenkins
 
 Для получения отчета нужно нажать на иконку allure report'a в строке билда 
-<img src="images/screenshots/jenkins_allure_report.jpg">
+<img src="tests/images/screenshots/jenkins_allure_report.jpg">
 У него будет точно такой же формат, как и при получении локально
-<img src="images/screenshots/allure_report_example_api.png">
+<img src="tests/images/screenshots/allure_report_example_api.png">
